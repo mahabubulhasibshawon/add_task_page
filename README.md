@@ -1,6 +1,9 @@
 # add_task_page
 
-A new Flutter project.
+A new Flutter project focus on todo list. this is mainly an ui design implemented using flutter
+
+## Screenshots
+![img.png](img.png)
 
 ## Getting Started
 

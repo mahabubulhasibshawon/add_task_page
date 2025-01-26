@@ -88,7 +88,7 @@ class TaskPage extends StatelessWidget {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(5),
                         ),
-                        child: Image.asset('assets/icons/calendar.png'),
+                        child: Image.asset('assets/icons/calendar.png',color: Colors.grey.shade500,),
                       ),
                       Text('No due date',
                           style:
@@ -168,7 +168,7 @@ class TaskPage extends StatelessWidget {
                     color: Colors.transparent,
                     borderRadius: BorderRadius.circular(5),
                   ),
-                  child: Image.asset('assets/icons/text.png'),
+                  child: Image.asset('assets/icons/text.png',color: Colors.grey.shade500,),
                 ),
                 Text('Description',
                     style:
@@ -191,7 +191,7 @@ class TaskPage extends StatelessWidget {
                     color: Colors.transparent,
                     borderRadius: BorderRadius.circular(5),
                   ),
-                  child: Image.asset('assets/icons/clock.png'),
+                  child: Image.asset('assets/icons/clock.png',color: Colors.grey.shade500,),
                 ),
                 Text('Time blocks',
                     style: TextStyle(fontSize: fontSize, color: Colors.grey)),
@@ -332,7 +332,7 @@ class TaskPage extends StatelessWidget {
                     color: Colors.transparent,
                     borderRadius: BorderRadius.circular(5),
                   ),
-                  child: Image.asset('assets/icons/plus.png'),
+                  child: Image.asset('assets/icons/plus.png',color: Colors.grey.shade500,),
                 ),
                 Text('Add time block',
                     style:
